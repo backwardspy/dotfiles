@@ -7,7 +7,7 @@ SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
 SETUVAR __fish_initialized:3100
-SETUVAR _fish_abbr_c:pbcopy
+SETUVAR _fish_abbr_c:xclip\x20\x2dsel\x20c
 SETUVAR _fish_abbr_ga:git\x20add
 SETUVAR _fish_abbr_gb:git\x20branch
 SETUVAR _fish_abbr_gc:git\x20commit
@@ -25,6 +25,7 @@ SETUVAR _fish_abbr_postgres:docker\x20run\x20\x2d\x2drm\x20\x2dd\x20\x2d\x2dname
 SETUVAR _fish_abbr_pr:pipenv\x20run
 SETUVAR _fish_abbr_psh:pipenv\x20shell
 SETUVAR _fish_abbr_tools:pipenv\x20install\x20\x2d\x2ddev\x20black\x3d\x3d20\x2e8b1\x20flake8\x20mypy\x20pytest\x20ptpython
+SETUVAR _fish_abbr_update:sudo\x20apt\x20update\x20\x26\x26\x20sudo\x20apt\x20\x2dy\x20full\x2dupgrade\x20\x26\x26\x20brew\x20update\x20\x26\x26\x20brew\x20upgrade\x20\x26\x26\x20yadm\x20bootstrap
 SETUVAR _fish_abbr_vim:nvim
 SETUVAR fish_color_autosuggestion:808080
 SETUVAR fish_color_cancel:normal
