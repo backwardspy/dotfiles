@@ -1,9 +1,11 @@
 pip
 black
+mypy
 flake8
+pytest
 ptpython
 pipenv
 requests
+pendulum
 django
 asciinema
-pendulum
