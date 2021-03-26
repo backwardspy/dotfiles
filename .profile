@@ -18,3 +18,4 @@ fi
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 PATH="$HOME/.poetry/bin:$HOME/.local/go/bin:$HOME/.local/bin:/usr/local/go/bin:$PATH"
+source "$HOME/.cargo/env"
