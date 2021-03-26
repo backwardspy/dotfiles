@@ -1,10 +1,10 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export CFLAGS:\x2dL/usr/local/opt/openssl/include/\x20\x2dL/usr/local/opt/zlib/include/\x20\x2dL/usr/local/opt/bzip2/include/
+SETUVAR --export CFLAGS:\x2dI/usr/local/opt/openssl/include/\x20\x2dI/usr/local/opt/zlib/include/\x20\x2dI/usr/local/opt/bzip2/include/\x20\x2dI/usr/local/opt/xz/include/
 SETUVAR --export --path DYLD_LIBRARY_PATH:/Users/chris/\x2elocal/lib
 SETUVAR --export EDITOR:/usr/local/bin/nvim
 SETUVAR --export --path GOPATH:/Users/chris/\x2elocal/go
-SETUVAR --export LDFLAGS:\x2dL/usr/local/opt/openssl/lib/\x20\x2dL/usr/local/opt/zlib/lib/\x20\x2dL/usr/local/opt/bzip2/lib/
+SETUVAR --export LDFLAGS:\x2dL/usr/local/opt/openssl/lib/\x20\x2dL/usr/local/opt/zlib/lib/\x20\x2dL/usr/local/opt/bzip2/lib/\x20\x2dL/usr/local/opt/xz/lib/
 SETUVAR SHELL:/usr/local/bin/fish
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
@@ -28,6 +28,7 @@ SETUVAR _fish_abbr_postgres:docker\x20run\x20\x2d\x2drm\x20\x2dd\x20\x2d\x2dname
 SETUVAR _fish_abbr_pr:pipenv\x20run
 SETUVAR _fish_abbr_psh:pipenv\x20shell
 SETUVAR _fish_abbr_tools:pipenv\x20install\x20\x2d\x2ddev\x20black\x3d\x3d20\x2e8b1\x20flake8\x20mypy\x20pytest\x20ptpython
+SETUVAR _fish_abbr_update:brew\x20update\x20\x26\x26\x20brew\x20upgrade\x20\x26\x26\x20yadm\x20bootstrap\x20\x26\x26\x20poetry\x20self\x20update
 SETUVAR _fish_abbr_vim:nvim
 SETUVAR fish_color_autosuggestion:808080
 SETUVAR fish_color_cancel:normal
@@ -58,4 +59,4 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/Users/chris/\x2epoetry/bin\x1e/Users/chris/\x2epyenv/shims\x1e/Users/chris/\x2elocal/go/bin\x1e/Users/chris/\x2elocal/bin\x1e/usr/local/sbin
+SETUVAR fish_user_paths:/Users/chris/\x2epoetry/bin\x1e/Users/chris/\x2epyenv/shims\x1e/Users/chris/\x2elocal/go/bin\x1e/Users/chris/\x2ecargo/bin\x1e/Users/chris/\x2elocal/bin\x1e/usr/local/sbin
