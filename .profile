@@ -17,7 +17,8 @@ if [ -n "$BASH_VERSION" ]; then
 fi
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-PATH="$HOME/.poetry/bin:$HOME/.local/go/bin:$HOME/.local/bin:/usr/local/go/bin:$PATH"
+export PATH="$HOME/.poetry/bin:$HOME/.local/go/bin:$HOME/.local/bin:/usr/local/go/bin:$PATH"
+export GOPATH="$HOME/.local/go"
 if [ -f "$HOME/.cargo/env" ]; then
     source "$HOME/.cargo/env"
 fi
