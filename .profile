@@ -22,3 +22,5 @@ export GOPATH="$HOME/.local/go"
 if [ -f "$HOME/.cargo/env" ]; then
     source "$HOME/.cargo/env"
 fi
+
+export PATH="$HOME/.poetry/bin:$PATH"
